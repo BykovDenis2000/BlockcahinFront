@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+  background-image: url("back.png");
+  background-size: 10%;
+  background-attachment: fixed;
+  background-repeat: round space;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
+div.main {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    width: 20%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(5px);
+  }
+
+  button {
+    width: 100%;
+    margin: 10px 0px 5px 0px;
+  }
+
+  section {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    backdrop-filter: blur(5px);
+  }
+
+  figure {
+    display: inline-block;
+    border-width: medium;
+    border-style: solid;
+    background-color: #fff;
+  }
+
+  figcaption {
+    text-align: center;
+  }
+  .icon{
+    margin: 10px auto 20px
+  }
+  div.cart{
+    text-align: center;
+  }
+  div.add{
+    text-align: center;
+    backdrop-filter: blur(5px);
+  }
+  
+/* CSS */
+.button-59 {
+  align-items: center;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  color: #000;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000;
+  font-family: 'Roboto',sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: -.8px;
+  line-height: 24px;
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-59:focus {
+  color: #171e29;
+}
+
+.button-59:hover {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+}
+
+.button-59:active {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+}
+
+@media (min-width: 768px) {
+  .button-59 {
+    min-width: 170px;
+  }
+}
+
