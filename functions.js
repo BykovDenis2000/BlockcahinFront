@@ -11,6 +11,7 @@ async function getCart() {
     const cost = await PizzaContract.getCost();
     console.log(cost*(10**(-18)).toString());
     newNode.innerHTML += "<p>"+ "Cart cost: " + cost +" Wei </p>";
+    newNode.innerHTML += "<button class='button-59' type='button' onclick= clearCart() >Clear Cart</button>"
     currentNode.parentNode.replaceChild(newNode, currentNode);
   }
 
@@ -76,4 +77,8 @@ async function getCart() {
     newNode.className='add';
     newNode.innerHTML += "<p>" + "Token Balance: " + balance + " PLT </p>";
     currentNode.parentNode.replaceChild(newNode, currentNode);
+  }
+
+  async function clearCart() {
+    await PizzaContract.clearCart();
   }

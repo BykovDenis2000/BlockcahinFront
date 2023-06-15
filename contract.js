@@ -2,7 +2,7 @@ const provider = new ethers.providers.Web3Provider(
     window.ethereum
   );
 
-  const PizzaContractAddress = "0xe3564E67B950c1A75f97ef7e228c3AE7354C8079";        /*"0x6D64191F5733aec0C624aeEf89313f0e9dd9ce60";*/
+  const PizzaContractAddress = "0x2012BEfc57B62F6dcD227dda8A31E68278321a02";        /*"0x6D64191F5733aec0C624aeEf89313f0e9dd9ce60";*/
   const PizzaContractABI = [
 	{
 		"inputs": [
